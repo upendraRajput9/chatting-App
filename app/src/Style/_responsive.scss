@@ -1,0 +1,60 @@
+@media only screen and (max-width: 720px) {
+    html{
+        font-size: 10px;
+    }
+    
+    .chat{
+        font-size: 10px;
+
+    }
+    
+    .turnOff{
+        display: none;
+       }
+       #backBtn{
+        display: block;
+       }
+       #sign{
+       flex-direction: column;
+       section{
+        width: 100%;
+       }
+              }
+              #signUP{
+                
+                flex-direction: column;
+                section{
+                 width: 100%;
+                }
+                       }
+}
+@media only screen and (max-width: 420px) {
+.aside{
+    .chats{
+        .chat-user{
+            article{
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+}
+
+}
+@media only screen and (max-width: 320px) {
+    .aside{
+        .chats{
+            .chat-user{
+                article{
+                    img{
+                        width: 25px;
+                        height:25px;
+                    }
+                }
+            }
+        }
+    }
+    
+    }

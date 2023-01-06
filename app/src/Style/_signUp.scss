@@ -1,0 +1,100 @@
+.signUp {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(28, 28, 28);
+    height: 100vh;
+    align-items: center;
+    display: flex;
+
+    .left {
+        background-color: #ffdfea;
+        height: 100%;
+        flex: 1.5;
+    }
+.right{
+    background-color: #fff8f8;
+    height: 100%;
+   flex: 2.5;
+}
+    section {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .right-container {
+            width: 65%;
+            
+            h1 {
+                font-size: 3rem;
+                text-align: center;
+                font-weight: 900;
+            }
+div{
+    span{
+        color: red;
+    }
+}
+            form {
+                display: flex;
+                flex-direction: column;
+             align-items: center;
+               label{
+                align-self: flex-start;
+                font-size: 1.5rem;
+                padding-top: 1rem;
+                padding-left: 1rem;
+               }
+               .addImg{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 25%;
+                }
+               }
+                input{
+                    outline: none;
+                    width: 100%;
+                    height: 2rem;
+                    border-radius: 20px;
+                    border: 2px solid #eabaca;
+                    padding:0 1rem;
+                    font-size: 1.2rem;
+                    &[type=submit]{
+                        border: 2px solid #f8abc5;
+                        font-size: 1.1rem;
+                        width: 30%;
+                        background-color: #eabaca;
+                        color: white;
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+
+        gap: 1rem;
+
+        h2 {
+            font-size: 4rem;
+            font-weight: 900;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        button {
+            border: 2px solid #eabaca;
+            background-color: transparent;
+            font-size: 1rem;
+            border-radius: 20px;
+            padding: 4px 10px;
+        }
+    }
+}
+
+.signIn{
+    input[type=submit]{
+    margin-top: 1rem;
+    }
+}
